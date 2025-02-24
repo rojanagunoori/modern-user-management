@@ -1,70 +1,84 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🎮 KBC Quiz Game – Real-Time Interactive Trivia
+A real-time quiz application inspired by Kaun Banega Crorepati (KBC), designed for interactive gameplay with real-time question-answering, QR-based joining, and instant feedback. Built with React.js, Node.js, Express, and Socket.IO, this game delivers an immersive trivia experience.
 
-## Available Scripts
+🚀 Features
+✅ Real-Time Quiz Gameplay – Instant question updates using Socket.IO
+✅ QR Code-Based Entry – Players join the game by scanning a QR code
+✅ Dynamic Question Categories – Covers Science, History, Politics, and GK
+✅ Timer-Based Challenges – Adds an element of excitement and urgency
+✅ Fully Responsive Design – Optimized for mobile & desktop
+✅ Scalable & Optimized Backend – Efficient handling of multiple players
+🛠 Tech Stack
+Frontend:
+React.js (Vite) – Modern frontend framework
+Tailwind CSS – Styling and responsiveness
+Axios – API communication
+Backend:
+Node.js, Express.js – REST API & server
+Socket.IO – Real-time communication
+qrcode Library – QR Code generation
+Deployment:
+Frontend: Netlify
+Backend: Render
+📸 Screenshots
+Add game screenshots or a demo GIF here
 
-In the project directory, you can run:
+🔗 Live Demo
+🌐 Live URL: [Deployed App Link]
+📂 GitHub Repositories:
 
-### `npm start`
+Frontend: GitHub Repo
+Backend: GitHub Repo
+🚀 Getting Started
+Prerequisites
+Ensure you have the following installed:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Node.js and npm
+Installation
+1. Clone the Repositories
+bash
+Copy
+Edit
+git clone https://github.com/rojanagunoori/kbc-game-frontend.git
+git clone https://github.com/rojanagunoori/kbc-game-backend2.git
+2. Navigate & Install Dependencies
+bash
+Copy
+Edit
+cd kbc-game-frontend
+npm install
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+cd ../kbc-game-backend2
+npm install
+3. Start the Backend Server
+bash
+Copy
+Edit
+npm start
+4. Start the Frontend App
+bash
+Copy
+Edit
+npm run dev
+📌 How to Play
+1️⃣ Start the backend server and keep it running.
+2️⃣ Launch the frontend application in a browser.
+3️⃣ Scan the QR code generated to join the quiz.
+4️⃣ Answer real-time questions and check scores instantly!
 
-### `npm test`
+⚡ Challenges & Solutions
+🔹 Real-Time Communication: Used Socket.IO for seamless updates.
+🔹 Scalability: Optimized API routes & server performance.
+🔹 Cross-Device Compatibility: Built a responsive UI with Tailwind CSS.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+📜 License
+This project is open-source under the MIT License.
 
-### `npm run build`
+🤝 Contributing
+Contributions are welcome! Feel free to submit issues, feature requests, or pull requests.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+⭐ Show Your Support
+If you liked this project, consider starring ⭐ the repo and sharing it! 🚀
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
